@@ -29,22 +29,6 @@ Se usó **Provider** (`ChangeNotifier`) con tres proveedores:
 
 **Por qué:** es la solución recomendada por Flutter para apps de tamaño pequeño/mediano, evita pasar datos manualmente entre pantallas y hace que las listas y dashboards se actualicen solos con `context.watch`. Gracias a esto **el estado persiste al navegar**: un pedido creado por el cliente aparece de inmediato al artesano y al administrador, y cuando el artesano cambia el estado, el cliente lo ve actualizado. (Los datos viven en memoria mientras la app está abierta.)
 
-## 4. Cómo ejecutar la app
-
-```bash
-flutter pub get
-flutter run
-```
-
-Para ubicar cada archivo, consulta [ESTRUCTURA_DEL_PROYECTO.md](ESTRUCTURA_DEL_PROYECTO.md).
-
-Requisitos: Flutter instalado y un emulador o dispositivo conectado (`flutter devices`). Al abrir, la app muestra el **splash** (3 s) y pasa al **login**.
-
-## 5. Demostración al docente
-
-- Dispositivo/emulador usado: **[completar: Android/iOS · modelo/versión]**
-- Fecha y modalidad de la demostración: **[completar: presencial / videollamada]**
-
 ## 6. Screenshots
 
 ### Splashscreen
